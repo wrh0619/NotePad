@@ -126,9 +126,64 @@ notepad 笔记本应用及拓展<br>
   ```
 
   3.字体更改<br>
-![](https://github.com/wrh0619/NotePad/blob/master/images/UI%E7%BE%8E%E5%8C%96.JPG)<br>
-相关代码:<br>
+![](https://github.com/wrh0619/NotePad/blob/master/images/%E5%AD%97%E4%BD%93.JPG)<br>
+```
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_save"
+          android:icon="@drawable/ic_menu_save"
+          android:alphabeticShortcut='s'
+          android:title="@string/menu_save"
+          android:showAsAction="always" />
+
+    <item android:id="@+id/menu_revert"
+          android:icon="@drawable/ic_menu_revert"
+          android:title="@string/menu_revert" />
+
+    <item android:id="@+id/menu_delete"
+          android:icon="@drawable/ic_menu_delete"
+          android:title="@string/menu_delete"
+          android:showAsAction="always" />
+
+    <item android:id="@+id/menu_output"
+          android:title="@string/menu_output" />
+    <item
+        android:id="@+id/item1"
+        android:title="字体大小">
+        <menu>
+            <item
+                android:id="@+id/small"
+                android:title="小">
+            </item>
+            <item
+                android:id="@+id/middle"
+                android:title="中">
+            </item>
+            <item
+                android:id="@+id/big"
+                android:title="大">
+            </item>
+
+        </menu>
+    </item>
+    <item android:id="@+id/item3"
+        android:title="字体颜色">
+        <menu>
+            <item
+                android:title="红"
+                android:id="@+id/red">
+
+            </item>
+            <item android:title="黑"
+                android:id="@+id/black">
+
+            </item>
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_color"
+        android:title="@string/menu_color"
+        android:icon="@drawable/ic_menu_color"
+        android:showAsAction="always"/>
+</menu>
 ```
 
-```
-![](https://github.com/wrh0619/NotePad/blob/master/images/%E5%AD%97%E4%BD%93.JPG)<br>
