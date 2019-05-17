@@ -36,8 +36,9 @@ notepad 笔记本应用及拓展<br>
   
 - 拓展功能
 
-  1.更换背景<br>
+  1. UI美化<br>
 ![](https://github.com/wrh0619/NotePad/blob/master/images/%E6%9B%B4%E6%8D%A2%E8%83%8C%E6%99%AF.JPG)<br>
+![](https://github.com/wrh0619/NotePad/blob/master/images/UI%E7%BE%8E%E5%8C%96.JPG)<br>
 相关代码：<br>
 ```
  <ImageButton
@@ -124,6 +125,10 @@ notepad 笔记本应用及拓展<br>
                 return true;
   ```
 
-  3. UI美化及字体更改
-![](https://github.com/wrh0619/NotePad/blob/master/images/UI%E7%BE%8E%E5%8C%96.JPG)   <br>
+  3.字体更改<br>
+![](https://github.com/wrh0619/NotePad/blob/master/images/UI%E7%BE%8E%E5%8C%96.JPG)<br>
+相关代码:<br>
+```
+
+```
 ![](https://github.com/wrh0619/NotePad/blob/master/images/%E5%AD%97%E4%BD%93.JPG)<br>
