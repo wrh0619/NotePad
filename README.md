@@ -1,13 +1,39 @@
 notepad 笔记本应用及拓展<br>
-实验截图：<br>
+- 基本功能<br>
 
-- 基本功能
+  1.时间戳<br>
+  ![](https://github.com/wrh0619/NotePad/blob/master/images/%E6%97%B6%E9%97%B4%E6%88%B3.JPG)<br>
+  相关代码：<br>
+```
+  <TextView
+        android:id="@+id/text1_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="5dip"
+        android:textColor="@color/colorBlack"/>
 
-  1.时间戳
-  ![images]()
+```
+  2.搜索功能<br>
+  ![](https://github.com/wrh0619/NotePad/blob/master/images/%E6%90%9C%E7%B4%A2.JPG)<br>
+  相关代码：<br>
+  ```
+   <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="输入搜索内容..."
+        android:layout_alignParentTop="true">
+    </SearchView>
 
-  2.搜索功能
-
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+  ```
+  
 - 拓展功能
 
   1. 笔记排序功能
