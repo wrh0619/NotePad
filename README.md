@@ -1,38 +1,12 @@
-# notepad 笔记本应用及拓展
-
-## 一、项目主要文件目录说明
-
-
-
-1. 类文件说明
-
-![](http://ww1.sinaimg.cn/large/8cc1690dgy1g2sjsx9shrj208n08x0sy.jpg)
-
-- notepad类
-
-  这个类为契约类，里面定义相关数据库字段属性，配置信息等等
-
-- NotePadProvider类 提供数据的访问
-
-- MyCursorAdapter 适配器类
-
-- NoteColor 类 颜色的显示
-
-- NoteList 主页面列表的显示
-
-- TitleEditor 标题的编辑
-
-- NoteEditor 笔记内容编写的activity
-
-
-
-## 二、基本功能及其拓展
+notepad 笔记本应用及拓展<br>
+实验截图：<br>
 
 - 基本功能
 
-  1. 增加时间戳功能
+  1.时间戳
+  ![images]()
 
-  2. 笔记内容的搜索功能
+  2.搜索功能
 
 - 拓展功能
 
